@@ -1,0 +1,41 @@
+.spinner-background {
+  width: 170px;
+  height: 25px;
+  top: 30vh;
+  left: 46vw;
+  position: absolute;
+  background: #565656cc;
+  border-radius: 4px;
+  padding: 25px 38px 46px;
+  box-shadow: rgba(45, 47, 64, 0.2) 0px 0px 6px 0px;
+  .loading-text {
+    color: white;
+    margin-bottom: "8px";
+  }
+}
+
+.inbox-layout-container {
+  // height: calc(100% - 40px) !important;
+  height: 100vh;
+  width: calc(100% - 48px);
+  margin-left: 48px;
+  overflow: hidden;
+  .inbox-inner-container {
+    width: 100%;
+    margin-top: 20px;
+    height: 100vh;
+    // min-height: calc(100vh - 60px);
+    // height: calc(100vh - 60px) !important;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    .inbox-content {
+      height: calc(100% - 111px);
+      margin-right: 0;
+      margin-left: 0;
+      border-top: 4px solid #98d997;
+      border-radius: 8px;
+      box-shadow: rgb(153 153 153 / 49%) 1px 1px 4px 0px;
+    }
+  }
+}

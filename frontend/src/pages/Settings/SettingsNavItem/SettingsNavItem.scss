@@ -1,0 +1,13 @@
+.SettingsNavItem.active,
+.SettingsNavItem:hover {
+  background: #eff3f5;
+  border-left: 3px solid #0071eb;
+}
+.SettingsNavItem {
+  padding: 5px 15px;
+  margin: 0 0 4px;
+  border-radius: 2px;
+  border-left: 3px solid #fff;
+  cursor: pointer;
+  position: relative;
+}

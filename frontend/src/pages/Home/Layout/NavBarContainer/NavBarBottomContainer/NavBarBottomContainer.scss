@@ -1,0 +1,61 @@
+.NavBarSettingContainer {
+  .NavSettingsItem {
+    width: 32px;
+    height: 32px;
+    margin: 8px auto 0;
+    border-radius: 3px;
+    background: #3c3c3c;
+    display: block;
+    cursor: pointer;
+    padding: 4px;
+
+    .NavSettingsName {
+      color: #94c8ff;
+      background: #1159a6;
+      width: 24px;
+      height: 24px;
+      border-radius: 2px;
+      text-align: center;
+      line-height: 26px;
+    }
+  }
+  .avatar {
+    max-width: 40px;
+    border-radius: 30px;
+    padding: 2px;
+    margin: 8px auto;
+    cursor: pointer;
+  }
+}
+.popover-content {
+  width: 268px;
+  padding: 16px 16px 0;
+  &-username {
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    color: #353f45;
+  }
+  &-account {
+    color: #353f45;
+  }
+  &-email {
+    color: #687882;
+    margin-bottom: 18px;
+  }
+  &-signout {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #4e5c65;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 8px 0;
+    border-top: 1px solid #e5e5e5;
+    &:hover {
+      color: #087fff;
+      text-decoration: none;
+    }
+  }
+}

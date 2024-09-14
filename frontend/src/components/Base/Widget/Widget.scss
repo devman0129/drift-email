@@ -1,0 +1,16 @@
+.widget-box {
+  padding: 16px;
+  border: 1px solid #9eabb3;
+  background: #fff;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 3px 12px -4px rgb(45 47 64 / 20%);
+  box-shadow: 0 3px 12px -4px rgb(45 47 64 / 20%);
+  .w-header {
+    color: #353f45;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 12px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}

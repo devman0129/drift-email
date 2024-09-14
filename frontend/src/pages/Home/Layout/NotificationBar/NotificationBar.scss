@@ -1,0 +1,13 @@
+.notification-bar {
+  background: #98d997;
+  height: 40px;
+  overflow: hidden;
+  .notification-text {
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 700;
+  }
+}

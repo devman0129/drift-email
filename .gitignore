@@ -1,0 +1,6 @@
+.vscode
+backend/.env
+frontend/.env
+backend/services/credentials.json
+backend/credentials.json
+backend/token.json

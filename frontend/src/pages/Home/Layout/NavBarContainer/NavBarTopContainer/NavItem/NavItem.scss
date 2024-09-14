@@ -1,0 +1,27 @@
+.nav-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 42px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 42px;
+  -webkit-transition: background 0.3s;
+  transition: background 0.3s;
+  color: #fff;
+  margin: 3px;
+  border-radius: 7px;
+  &.active {
+    background: #3c3c3c;
+  }
+  &:not(.active):hover {
+    background: #2a2a2a;
+  }
+  &:hover {
+    text-decoration: none;
+  }
+}

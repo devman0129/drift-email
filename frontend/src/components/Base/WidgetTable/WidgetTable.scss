@@ -1,0 +1,31 @@
+.tone-high {
+  color: #46b05d;
+}
+.tone-med {
+  color: #d9c357;
+}
+.user-table-box {
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 0%), 0px 1px 1px 0px rgb(0 0 0 / 0%),
+    0px 1px 3px 0px rgb(0 0 0 / 0%) !important;
+  margin-bottom: 16px;
+  .user-table-cell {
+    color: #4e5c65 !important;
+    font-weight: bold !important;
+    height: 40px !important;
+  }
+  .action-btn-white {
+    padding: 4px 8px;
+    color: #212529;
+    background-color: #fff;
+    border-color: #9eabb3;
+    border: 1px solid #9eabb3;
+    border-radius: 3px;
+    font-size: 12px;
+    color: #4e5c65;
+  }
+  .action-btn-white:hover {
+    color: #212529;
+    background-color: #ececec;
+    border-color: #81929d;
+  }
+}

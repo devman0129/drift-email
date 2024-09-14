@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600|Work+Sans:400,500,600,700&display=swap');
+.loginform {
+  max-width: 700px;
+  min-width: 650px;
+  width: 30%;
+  margin: 100px auto;
+  background-color: #ffffff;
+  border-radius: 25px;
+  box-shadow: inset 0px -3px 0px 0px rgb(51 192 183);
+  position: relative;
+  .headerTitle {
+    text-align: center;
+    font-family: 'open sans', sans-serif;
+    padding: 2rem 0 0 0;
+    margin: 0;
+    color: #4e4e4e;
+  }
+  .form-field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+
+    & input {
+      width: 80%;
+      box-sizing: border-box;
+      border: none;
+      border-radius: 10px;
+      font-size: 1.3rem;
+      padding-left: 1.5rem;
+      padding-bottom: 1rem;
+      padding-top: 0.5rem;
+      box-shadow: inset 0px -3px 0px 0px rgba(187, 187, 187, 0.2);
+      transition: box-shadow 0.2s ease-in;
+    }
+
+    & input:focus {
+      box-shadow: inset 0px -3px 0px 0px rgba(34, 193, 195, 0.7);
+      outline: none;
+    }
+
+    & input::-webkit-input-placeholder {
+      opacity: 1;
+      transition: opacity 0.25s ease-out;
+    }
+
+    & input:hover::-webkit-input-placeholder,
+    & input:focus::-webkit-input-placeholder {
+      opacity: 0;
+    }
+
+    & label {
+      align-self: start;
+      padding-left: 4.5rem;
+      padding-bottom: 0.5rem;
+      color: rgba(187, 187, 187, 0.9);
+      text-align: left;
+    }
+
+    & button {
+      border-radius: 8px;
+      width: 80%;
+      height: 40px;
+      font-size: 1.3rem;
+      color: white;
+      font-weight: 700;
+      background: linear-gradient(
+        90deg,
+        rgba(34, 193, 195, 1) 0%,
+        rgba(253, 187, 45, 1) 100%
+      );
+      border: 0px;
+      cursor: pointer;
+      transition: opacity 0.25s ease-out;
+      box-shadow: inset 0px -3px 0px 0px rgb(126 126 126 / 42%);
+    }
+
+    & button:active {
+      box-shadow: inset 0px -2px 0px 0px rgb(126 126 126 / 42%);
+    }
+
+    & button:hover {
+      opacity: 0.7;
+    }
+  }
+  .login-button {
+    padding-bottom: 1.5rem;
+  }
+  .icon-group {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px;
+    margin: 0 0.6rem;
+  }
+  .alternative-login {
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+}
